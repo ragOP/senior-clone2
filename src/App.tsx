@@ -28,6 +28,7 @@ import Late from './pages/Late';
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import Toast from './pages/Toast';
+import Newone from './pages/Newone';
 function App() {
  console.log('s');
   return (
@@ -45,6 +46,8 @@ function App() {
           <Route path = "/spanaca1" element = {<First_SP />} />
           <Route path = "/engaca2" element = {<Second_EN />} />
           <Route path = "/spanaca2" element = {<Second_SP />} />
+          <Route path = "/engmed901" element = {<Newone />} />
+
           {/* <Route path = "/engmed1" element = {<Third_EN />} /> */}
              {/* <Route path = "/engmed1" element = {<S />} /> */}
          <Route path = "/engmedssd" element = {<Late/>} />
